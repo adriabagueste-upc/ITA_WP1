@@ -37,11 +37,6 @@ def main():
     x, y = E.getCCO('A319-131', 0.8, 'ROC')
     plt.plot(x,y, label="A319-131 MTOW: 80%, ROC optimized")
 
-    plt.legend(fontsize='small', title="Aircraft type and MTOW")
-    plt.title("CCO trajectories for different aircraft types and MTOW")
-    plt.xlabel("Distance (m)")
-    plt.ylabel("Altitude (m)")
-
     #Optimitzing Gamma
     #MTOW 100%
     E = Equations()
